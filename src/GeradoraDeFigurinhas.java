@@ -13,7 +13,7 @@ public class GeradoraDeFigurinhas {
 
         // leitura da imagem
         //InputStream inputStream = new FileInputStream(new File("entrada/Filme.jpg"));
-        //InputStream inputStream = new URL("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg").openStream();
+        //InputStream inputStream = new URL("https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopMovies_1.jpg").openStream();
         BufferedImage imagemOriginal = ImageIO.read(inputStream);
 
         // cria nova imagem em memória com transparência e com tamanho novo
